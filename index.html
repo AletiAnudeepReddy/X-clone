@@ -12,7 +12,7 @@
             <div class="logo invert my-4">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
             </div>
-            <div class="sidebar flex justify-end">
+            <div class="sidebar flex items-end flex-col">
                 <ul class="flex flex-col text-xl space-y-3 px-10 font-bold">
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">
                         home
@@ -44,6 +44,13 @@
                     <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">
                         more
                         </span>More</li>
+                    <li>
+                        <div class="button w-full text-center">
+                            <button class="bg-blue-600 px-20 text-xl rounded-full my-3 py-2 text-white">
+                                Post
+                            </button>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,18 +63,40 @@
                     settings
                     </span></div>
             </div>
-            <div class="h-[1px] w-full bg-gray-700"></div>
-            <div class="whatishapp flex gap-1">
+            <div class="w-full h-[0.2px] bg-[#333841]"></div>
+            <div class="whatishapp flex gap-1 my-2">
                 <div class="img m-3">
                     <img class="w-[50px] h-[50px] rounded-full" src="pngs.jpg" alt=""/>
                 </div>
                 <div>
                     <input class="w-full h-7 my-5 mb-3 bg-black outline-none text-xl text-white" type="text" placeholder="What is Happening?">
-                    <div class="text-blue-400 flex text-sm items-center gap-1">
+                    <div class="text-blue-400 flex text-sm items-center gap-1 my-1">
                         <span class="material-symbols-outlined">
                             globe_asia
                         </span>
                         <span>Everyone can reply</span>
+                    </div>
+                    <div class="width-[90%] h-[0.2px] bg-[#333841] my-3">
+                    </div>
+                    <div class="blueicons flex gap-2 text-blue-400">
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            image
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            gif
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            ballot
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            sentiment_satisfied
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            calendar_month
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer hover:text-blue-300 hover:scale-125">
+                            pin_drop
+                        </span>
                     </div>
                 </div>
             </div>
